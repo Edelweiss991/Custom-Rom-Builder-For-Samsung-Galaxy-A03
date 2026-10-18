@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       GSI:
-        description: 'GSI Image Direct Link (.img, .7z, .xz, .gz, .zip)'
+        description: 'GSI Image Direct Link' # supports .img, .7z, .xz, .gz, .zip
         required: true
         default: 'https://github.com/naz664/ArrowOS_gsi/releases/download/v2023.10.28/ArrowOS-13.1-arm64_bgN-slim-Unofficial.img.xz'
       NAME:
@@ -18,11 +18,11 @@ on:
         required: true
         default: 'ArrowOS-13.1-arm64_bgN-slim-Unofficial.7z'
       VERSION:
-        description: 'Baseband Version'
+        description: 'Baseband Version' # idk set it as anything ig
         required: true
         default: 'A035FXXS9CYG1'
       VENDOR:
-        description: 'Enter Direct Link Of Your Version Vendor'
+        description: 'Enter Direct Link Of Your Version Vendor' # should keep this as default since its prob compatible with all phones
         required: true
         default: 'https://sourceforge.net/projects/a03-file/files/A035FXXS9CYG1/vendor.img'
 
@@ -45,7 +45,7 @@ jobs:
         cd lpbinary
         bash install.sh
 
-    - name: Downloading Your GSI And Extracting
+    - name: Downloading Your GSI And Extracting 
       run: |
         cd lpbinary/binary
         wget "${{ github.event.inputs.GSI }}" -O gsi_archive
