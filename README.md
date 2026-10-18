@@ -1,18 +1,4 @@
 # Custom-Rom-Builder-For-Samsung-Galaxy-A03
-
-# Note from Endemanset
-- The reason why i forked this was just to make GSIs for unfortunate Bit 9 Security Layout users like me
-- I will do all the work for you all 
-- Both LineageOS 20 and 21 + Pre Quarterly Platform Release 21 build and AOSP 14 works (Based on SM-A035F)
-- Since the OG repo hasnt been updated, i am updating this
-- User Tests contains : PixelOS TD (Android 14), Evolution X, AOSP 14 (GMS UP1A), NotVanilla LineageOS 21 P-QPR2 and ArrowOS
-- I recommend ArrowOS for stability (because of size), LineageOS 21 (NotVanilla P-QPR2) for Google Play and smooth Android 14, AOSP 14 (Oldest) for a Pixel Experience (get it?), LineageOS 20 for Smooth Android 13 (like ArrowOS)
-- SourceForge test and LineageOS 21 (latest) are the same
-- Remember to change your Vendor, Product and System_EXT
-- DO NOT USE VNDKLITE FOR YOUR CUSTOM ROM. ONLY USE NON VNDKLITE. IT WILL BOOTLOOP YOUR DEVICE
-  
-------------- End
-
 - This tool can create an ODIN super.tar to flash to your device
 - After running this workflow you'll get a .7z file in the releases section.
 - Extract that 7z file you'll get a super.tar. Just a .tar with the custom GSI.
@@ -56,7 +42,7 @@ like this LineageOS-20.1-a035fxxnn-arm64-gapps.7z
 - [bruh™](https://github.com/Exynos-nibba)
 - [gauravv.x1](https://github.com/gauravv-x1)
 
-  # Lists of GSIs I used (Endemanset)
+  # Lists of GSIs I used (Endemanset) # should be my part here :)
 - [LineageOS GSI](https://sourceforge.net/projects/andyyan-gsi/files)
 - [AOSP (Oldest)](https://github.com/ponces/treble_build_aosp/releases/)
 - [Evolution X and some more GSIs](https://sourceforge.net/projects/thegsis/files/)
@@ -64,6 +50,19 @@ like this LineageOS-20.1-a035fxxnn-arm64-gapps.7z
 - [PixelOS GSI Github](https://github.com/MisterZtr/PixelOS_gsi/releases)
 - [AOSP (Second One)](https://developer.android.com/topic/generic-system-image/releases#android-gsi-14)
 - [ArrowOS GSI](https://github.com/naz664/ArrowOS_gsi/releases)
+
+- moved
+- # Note from Endemanset
+- The reason why i forked this was just to make GSIs for unfortunate Bit 9 Security Layout users like me
+- I will do all the work for you all 
+- Both LineageOS 20 and 21 + Pre Quarterly Platform Release 21 build and AOSP 14 works (Based on SM-A035F)
+- Since the OG repo hasnt been updated, i am updating this
+- User Tests contains : PixelOS TD (Android 14), Evolution X, AOSP 14 (GMS UP1A), NotVanilla LineageOS 21 P-QPR2 and ArrowOS
+- I recommend ArrowOS for stability (because of size), LineageOS 21 (NotVanilla P-QPR2) for Google Play and smooth Android 14, AOSP 14 (Oldest) for a Pixel Experience (get it?), LineageOS 20 for Smooth Android 13 (like ArrowOS)
+- SourceForge test and LineageOS 21 (latest) are the same
+- Remember to change your Vendor, Product and System_EXT
+- DO NOT USE VNDKLITE FOR YOUR CUSTOM ROM. ONLY USE NON VNDKLITE. IT WILL BOOTLOOP YOUR DEVICE
+
 
 
 
